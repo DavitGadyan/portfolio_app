@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/Portfolio_App/categories/</link>
+    <description>Recent content in Categories on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Wed, 30 Jun 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine learning</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/machine-learning/</link>
+      <pubDate>Wed, 30 Jun 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/computer-vision/</link>
+      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/deep-learning/</link>
+      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IOT</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/iot/</link>
+      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/nlp/</link>
+      <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web development</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/categories/web-development/</link>
+      <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

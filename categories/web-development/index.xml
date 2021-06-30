@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web development on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/Portfolio_App/categories/web-development/</link>
+    <description>Recent content in Web development on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Fri, 04 Dec 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stock Trend &amp; Sentiment Analysis</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</link>
+      <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</guid>
+      <description>Project aims to create a web-based UI to analyse trending stocks and sentiment with regards to specific stocks.</description>
+    </item>
+    
+    <item>
+      <title>Python Cluster Analysis App</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</link>
+      <pubDate>Mon, 25 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</guid>
+      <description>The goal of this project was to create a tool using which users can analyse data in various ways by applying machine learning clusterization and other methods on specific datasets.</description>
+    </item>
+    
+  </channel>
+</rss>
