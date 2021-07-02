@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/Portfolio_App/categories/cloud/</link>
+    <description>Recent content in cloud on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrapy &#43; AWS EC2 &#43; S3</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-5/</link>
+      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-5/</guid>
+      <description>The main goal of project was to develop a web scraping solution to collect data from millions of pages from indeed.</description>
+    </item>
+    
+    <item>
+      <title>Image Back ground Removal</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-6/</link>
+      <pubDate>Thu, 03 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-6/</guid>
+      <description>Goal of the project was to remove background from images of apparel.</description>
+    </item>
+    
+    <item>
+      <title>Python Cluster Analysis App</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</link>
+      <pubDate>Mon, 25 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</guid>
+      <description>The goal of this project was to create a tool using which users can analyse data in various ways by applying machine learning clusterization and other methods on specific datasets.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web scraping on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/Portfolio_App/categories/web-scraping/</link>
+    <description>Recent content in web scraping on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrapy &#43; AWS EC2 &#43; S3</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-5/</link>
+      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-5/</guid>
+      <description>The main goal of project was to develop a web scraping solution to collect data from millions of pages from indeed.</description>
+    </item>
+    
+  </channel>
+</rss>

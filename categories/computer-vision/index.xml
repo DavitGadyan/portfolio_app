@@ -17,5 +17,14 @@
       <description>This project was one of the most complex ones. The ultimate goal was to detect driver fatigue and issue warnings to driver via alarms.</description>
     </item>
     
+    <item>
+      <title>Image Back ground Removal</title>
+      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-6/</link>
+      <pubDate>Thu, 03 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-6/</guid>
+      <description>Goal of the project was to remove background from images of apparel.</description>
+    </item>
+    
   </channel>
 </rss>

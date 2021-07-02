@@ -7,59 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title>Importance of Math in Data Science</title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-1/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description>Do I really need to learn so much math?!?! This blog post aims to discuss and outline my view on level of math knowledge needed for the data science.</description>
     </item>
     
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title></title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-2/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description></description>
     </item>
     
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title></title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-3/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description></description>
     </item>
     
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title></title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-4/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-4/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description></description>
     </item>
     
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title></title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-5/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-5/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description></description>
     </item>
     
     <item>
-      <title>This Is A Simple Blog Post</title>
+      <title></title>
       <link>https://DavitGadyan.github.io/Portfolio_App/blog/blog-6/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://DavitGadyan.github.io/Portfolio_App/blog/blog-6/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description></description>
     </item>
     
   </channel>
