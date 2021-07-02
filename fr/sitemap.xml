@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://DavitGadyan.github.io/Portfolio_App/fr/categories/</loc>
+    <loc>https://DavitGadyan.github.io/portfolio_app/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://DavitGadyan.github.io/Portfolio_App/categories/"
+                href="https://DavitGadyan.github.io/portfolio_app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://DavitGadyan.github.io/Portfolio_App/fr/categories/"
+                href="https://DavitGadyan.github.io/portfolio_app/fr/categories/"
                 />
   </url><url>
-    <loc>https://DavitGadyan.github.io/Portfolio_App/fr/</loc>
+    <loc>https://DavitGadyan.github.io/portfolio_app/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://DavitGadyan.github.io/Portfolio_App/"
+                href="https://DavitGadyan.github.io/portfolio_app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://DavitGadyan.github.io/Portfolio_App/fr/"
+                href="https://DavitGadyan.github.io/portfolio_app/fr/"
                 />
   </url><url>
-    <loc>https://DavitGadyan.github.io/Portfolio_App/fr/tags/</loc>
+    <loc>https://DavitGadyan.github.io/portfolio_app/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://DavitGadyan.github.io/Portfolio_App/tags/"
+                href="https://DavitGadyan.github.io/portfolio_app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://DavitGadyan.github.io/Portfolio_App/fr/tags/"
+                href="https://DavitGadyan.github.io/portfolio_app/fr/tags/"
                 />
   </url>
 </urlset>

@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine learning on David Gadyan</title>
-    <link>https://DavitGadyan.github.io/Portfolio_App/categories/machine-learning/</link>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
     <description>Recent content in Machine learning on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entity Resolution</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-4/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-4/</link>
       <pubDate>Wed, 30 Jun 2021 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-4/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-4/</guid>
       <description>Entity resolution (ER) is the task of disambiguating records that correspond to real world entities across and within datasets.</description>
     </item>
     
     <item>
       <title>Stock Trend &amp; Senti ment Analysis</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</guid>
       <description>Project aims to create a web-based UI to analyse trending stocks and sentiment with regards to specific stocks.</description>
     </item>
     
     <item>
       <title>Python Cluster Analysis App</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-1/</link>
       <pubDate>Mon, 25 May 2020 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-1/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-1/</guid>
       <description>The goal of this project was to create a tool using which users can analyse data in various ways by applying machine learning clusterization and other methods on specific datasets.</description>
     </item>
     

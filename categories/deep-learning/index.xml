@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep learning on David Gadyan</title>
-    <link>https://DavitGadyan.github.io/Portfolio_App/categories/deep-learning/</link>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</link>
     <description>Recent content in deep learning on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Vision | IOT</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-3/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</link>
       <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-3/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</guid>
       <description>This project was one of the most complex ones. The ultimate goal was to detect driver fatigue and issue warnings to driver via alarms.</description>
     </item>
     

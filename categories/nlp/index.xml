@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NLP on David Gadyan</title>
-    <link>https://DavitGadyan.github.io/Portfolio_App/categories/nlp/</link>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/nlp/</link>
     <description>Recent content in NLP on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 04 Dec 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stock Trend &amp; Senti ment Analysis</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/portfolio/project-2/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</guid>
       <description>Project aims to create a web-based UI to analyse trending stocks and sentiment with regards to specific stocks.</description>
     </item>
     

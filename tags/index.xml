@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on David Gadyan</title>
-    <link>https://DavitGadyan.github.io/Portfolio_App/tags/</link>
+    <link>https://DavitGadyan.github.io/portfolio_app/tags/</link>
     <description>Recent content in Tags on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/Portfolio_App/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data science</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/tags/data-science/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</link>
       <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/tags/data-science/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://DavitGadyan.github.io/Portfolio_App/tags/math/</link>
+      <link>https://DavitGadyan.github.io/portfolio_app/tags/math/</link>
       <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/Portfolio_App/tags/math/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/tags/math/</guid>
       <description></description>
     </item>
     
