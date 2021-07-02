@@ -1,4 +1,4 @@
 # Portfolio_App
 Portfolio App
 
-https://davitgadyan.github.io/Portfolio_App/
+https://davitgadyan.github.io/portfolio_app/
