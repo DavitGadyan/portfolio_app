@@ -1,4 +1,4 @@
 # Portfolio_App
 Portfolio App
 
-https://davitgadyan.github.io/portfolio_app/
+To view application please follow the link >>> https://davitgadyan.github.io/portfolio_app/
