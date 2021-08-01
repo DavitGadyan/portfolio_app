@@ -36,6 +36,15 @@
     </item>
     
     <item>
+      <title>Algo rithmic Trading Python</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</link>
+      <pubDate>Tue, 02 Mar 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</guid>
+      <description>Goal of the project was to create a trading bot which will trade cryptocurrencies on few exchanges like Binance etc.</description>
+    </item>
+    
+    <item>
       <title>Stock Trend &amp; Senti ment Analysis</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
@@ -60,6 +69,24 @@
       
       <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-1/</guid>
       <description>The goal of this project was to create a tool using which users can analyse data in various ways by applying machine learning clusterization and other methods on specific datasets.</description>
+    </item>
+    
+    <item>
+      <title>AI powered Scrapy bot</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</link>
+      <pubDate>Mon, 30 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</guid>
+      <description>Goal of the project was to create a Scrapy bot which will go to thousands of websites from particular sector and extract most important data points like company about page, address, news and specifically employee realted information.</description>
+    </item>
+    
+    <item>
+      <title>Recommender System</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-9/</link>
+      <pubDate>Sun, 10 Feb 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-9/</guid>
+      <description>Goal of the project was to create a recommender system for a matchmaking website.</description>
     </item>
     
   </channel>

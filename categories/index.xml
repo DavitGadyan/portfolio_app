@@ -9,7 +9,7 @@
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
     <lastBuildDate>Wed, 30 Jun 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Machine learning</title>
+      <title>machine learning</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
       <pubDate>Wed, 30 Jun 2021 12:14:34 +0600</pubDate>
       
@@ -27,7 +27,7 @@
     </item>
     
     <item>
-      <title>Computer Vision</title>
+      <title>computer vision</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</link>
       <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
       
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>IOT</title>
+      <title>iot</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/iot/</link>
       <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
       
@@ -63,7 +63,16 @@
     </item>
     
     <item>
-      <title>NLP</title>
+      <title>algorithmic trading</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/algorithmic-trading/</link>
+      <pubDate>Tue, 02 Mar 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/algorithmic-trading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/nlp/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
       
@@ -72,11 +81,20 @@
     </item>
     
     <item>
-      <title>Web development</title>
+      <title>web development</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recommender system</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/recommender-system/</link>
+      <pubDate>Sun, 10 Feb 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/recommender-system/</guid>
       <description></description>
     </item>
     

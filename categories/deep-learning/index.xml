@@ -17,5 +17,23 @@
       <description>This project was one of the most complex ones. The ultimate goal was to detect driver fatigue and issue warnings to driver via alarms.</description>
     </item>
     
+    <item>
+      <title>AI powered Scrapy bot</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</link>
+      <pubDate>Mon, 30 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</guid>
+      <description>Goal of the project was to create a Scrapy bot which will go to thousands of websites from particular sector and extract most important data points like company about page, address, news and specifically employee realted information.</description>
+    </item>
+    
+    <item>
+      <title>Recommender System</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-9/</link>
+      <pubDate>Sun, 10 Feb 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-9/</guid>
+      <description>Goal of the project was to create a recommender system for a matchmaking website.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -17,5 +17,14 @@
       <description>The main goal of project was to develop a web scraping solution to collect data from millions of pages from indeed.</description>
     </item>
     
+    <item>
+      <title>AI powered Scrapy bot</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</link>
+      <pubDate>Mon, 30 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-8/</guid>
+      <description>Goal of the project was to create a Scrapy bot which will go to thousands of websites from particular sector and extract most important data points like company about page, address, news and specifically employee realted information.</description>
+    </item>
+    
   </channel>
 </rss>

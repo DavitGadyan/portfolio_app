@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithmic trading on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/algorithmic-trading/</link>
+    <description>Recent content in algorithmic trading on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Tue, 02 Mar 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/algorithmic-trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algo rithmic Trading Python</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</link>
+      <pubDate>Tue, 02 Mar 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</guid>
+      <description>Goal of the project was to create a trading bot which will trade cryptocurrencies on few exchanges like Binance etc.</description>
+    </item>
+    
+  </channel>
+</rss>
