@@ -20,9 +20,18 @@
     <item>
       <title>cloud</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</link>
-      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web scraping</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
+      <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
       <description></description>
     </item>
     
@@ -54,11 +63,11 @@
     </item>
     
     <item>
-      <title>web scraping</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
-      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
+      <title>financial analysis</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</link>
+      <pubDate>Mon, 29 Mar 2021 12:14:34 +0600</pubDate>
       
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</guid>
       <description></description>
     </item>
     
@@ -74,9 +83,18 @@
     <item>
       <title>nlp</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/nlp/</link>
-      <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
+      <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/visualization/</link>
+      <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/visualization/</guid>
       <description></description>
     </item>
     

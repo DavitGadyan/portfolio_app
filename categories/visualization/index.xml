@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visualization on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/visualization/</link>
+    <description>Recent content in visualization on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Wed, 27 Jan 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LDA and LIWC Analysis of tweets</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</link>
+      <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</guid>
+      <description>Goal of the project was to conduct LDA and LIWC analysis on Trump&amp;rsquo;s tweets regarding Covid and few other topics.</description>
+    </item>
+    
+  </channel>
+</rss>

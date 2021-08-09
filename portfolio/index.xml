@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Scrapy &#43; Bigquery &#43; Cloud</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-11/</link>
+      <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-11/</guid>
+      <description>Goal of the project was to extract information for damaged cars from a website that did not have proper API support.</description>
+    </item>
+    
+    <item>
       <title>Computer Vision | IOT</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</link>
       <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
@@ -36,12 +45,30 @@
     </item>
     
     <item>
+      <title>Stock Analysis</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-12/</link>
+      <pubDate>Mon, 29 Mar 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-12/</guid>
+      <description>Goal of the project was to test a hypothesis with regards to stock market.</description>
+    </item>
+    
+    <item>
       <title>Algo rithmic Trading Python</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</link>
       <pubDate>Tue, 02 Mar 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</guid>
       <description>Goal of the project was to create a trading bot which will trade cryptocurrencies on few exchanges like Binance etc.</description>
+    </item>
+    
+    <item>
+      <title>LDA and LIWC Analysis of tweets</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</link>
+      <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</guid>
+      <description>Goal of the project was to conduct LDA and LIWC analysis on Trump&amp;rsquo;s tweets regarding Covid and few other topics.</description>
     </item>
     
     <item>

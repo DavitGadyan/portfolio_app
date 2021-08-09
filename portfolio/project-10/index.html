@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>LDA and LIWC Analysis of tweets</title>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="This is meta description.">
+  
+  <meta name="author" content="somrat">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/hover/hover.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.carousel.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.theme.default.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/text-animation/text-animation.css">
+  
+
+  
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/css/style.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/css/custom.min.css" media="screen">
+
+  
+  <link rel="shortcut icon" href="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" type="image/x-icon">
+  <link rel="icon" href="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" type="image/x-icon">
+
+  
+  
+
+  
+  <meta property="og:image" content="https://DavitGadyan.github.io/portfolio_app/images/portfolio/lda-liwc.bmp" />
+  
+  <meta property="og:title" content="LDA and LIWC Analysis of tweets" />
+<meta property="og:description" content="This is meta description." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/" /><meta property="article:section" content="portfolio" />
+<meta property="article:published_time" content="2021-01-27T12:14:34+06:00" />
+<meta property="article:modified_time" content="2021-01-27T12:14:34+06:00" />
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T22819GWRK"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-T22819GWRK', { 'anonymize_ip': false });
+}
+</script>
+
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://DavitGadyan.github.io/portfolio_app/images/preloader.gif" alt="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<section class="menu menu-fix" id="home">
+  <nav>
+    
+    <div class="menu-container menu-normal">
+      <ul class="desktop-menu list-inline mb-0 justify-content-end" id="desktop-menu">
+        <a class="mr-auto" href="https://DavitGadyan.github.io/portfolio_app/">
+          
+          <img class="img-fluid" width="150px" src="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png"
+            alt="David Gadyan">
+          
+        </a>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app">Home</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#about">About me</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#service">Service</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#portfolio">Portfolio</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#testimonial">Testimonial</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#contact">Contact</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/blog">Blog</a></li>
+        
+      </ul>
+      
+      
+
+      
+      <div class="mobile-menu">
+        <a class="menu-link">
+          <div class="mobile-menu-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div class="mobile-menu-logo"><a href="https://DavitGadyan.github.io/portfolio_app/"><img class="img-fluid"
+              src="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" alt="David Gadyan"></a>
+        </div>
+        <div class="menu-slider">
+          <nav>
+            <ul class="mobile-menu-list">
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app">Home</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#about">About me</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#service">Service</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#portfolio">Portfolio</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#testimonial">Testimonial</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#contact">Contact</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/blog">Blog</a></li>
+              
+            </ul>
+            
+            <ul class="mobile-menu-icons list-inline">
+              
+              <li><a href="https://twitter.com/Dave18381384"><i class="fab fa-twitter"></i></a></li>
+              
+              <li><a href="https://github.com/DavitGadyan"><i class="fab fa-github"></i></a></li>
+              
+              <li><a href="https://www.linkedin.com/in/davidgadyan/"><i class="fab fa-linkedin"></i></a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<div style="height: 50px;"></div>
+
+
+<style></style>
+<section class="section " >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <div class="wow fadeInUp" data-wow-duration="1.5s">
+          <img src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/lda-liwc.bmp" alt="image" class="img-fluid w-100 mb-5">
+          <div class="about-me-text mb-4">
+            <h1>LDA and LIWC Analysis of tweets</h1>
+          </div>
+          <div class="content"><p>Goal of the project was to conduct LDA and LIWC analysis on Trump&rsquo;s tweets regarding Covid and few other topics.</p>
+<h4 id="project-details">Project Details</h4>
+<p>After initial EDA analysis and some text preprocessing, I have conducted LDA analysis using python tools such as pyLDAvis. As an output, we have interactive html formated files to look into clusters discovered by LDA algorithm. Using LIWC2015 Dictionary.dic I have conducted LIWC analysis in Python although initially there were some problems with encoded files we managed to contact the author of the work and he sent decoded version so many thanks to Dr. James W. Pennebaker.</p>
+</div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-white sticky-top wow fadeInUp" data-wow-duration="1.5s" style="top: 80px;">
+          <ul class="list-unstyled">
+            <li class="media mb-4">
+              <i class="mt-1 fas fa-calendar h2"></i>
+               <div class="ml-3">
+                 <h4>Date</h4>
+                 <div class="content">27 Jan, 2021</div>
+               </div>
+             </li>
+             <li class="media mb-4">
+               <i class="mt-1 fas fa-folder h2"></i>
+                <div class="ml-3">
+                  <h4>Categories</h4>
+                  <div class="content"> Nlp, Machine Learning, Visualization</div>
+                </div>
+              </li>
+            
+            <li class="media mb-4">
+             <i class="mt-1 fas fa-user h2"></i>
+              <div class="ml-3">
+                <h4>Client</h4>
+                <div class="content">Hamad S.</div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	<footer class="footer-bg fadeInUp wow" data-wow-duration="1.5s">
+  <div class="container">
+    <div class="row">
+      <div class="footer col-lg-10 offset-lg-1">
+        <hr>
+        <ul class="footer-icons list-inline">
+          
+          <li><a href="https://twitter.com/Dave18381384"><i class="fab fa-twitter"></i></a></li>
+          
+          <li><a href="https://github.com/DavitGadyan"><i class="fab fa-github"></i></a></li>
+          
+          <li><a href="https://www.linkedin.com/in/davidgadyan/"><i class="fab fa-linkedin"></i></a></li>
+          
+        </ul>
+        <div class="to-top">
+          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="credit content">
+          Copyright © 2020 a hugo theme by <a href="https://somrat.netlify.com">somrat</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><!-- JS Plugins -->
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/wow.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/text-animation/text-animation.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/jquery.waypoints.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.carousel.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://DavitGadyan.github.io/portfolio_app/js/script.min.js"></script>
+
+<!-- google analitycs -->
+</body>
+
+</html>
