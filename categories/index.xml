@@ -7,13 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>api</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/api/</link>
+      <pubDate>Tue, 12 Oct 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>financial analysis</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</link>
+      <pubDate>Tue, 12 Oct 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</link>
+      <pubDate>Tue, 12 Oct 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer vision</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</link>
+      <pubDate>Wed, 29 Sep 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ocr</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</link>
+      <pubDate>Wed, 29 Sep 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>machine learning</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
-      <pubDate>Wed, 30 Jun 2021 12:14:34 +0600</pubDate>
+      <pubDate>Wed, 07 Jul 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web scraping</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
+      <pubDate>Wed, 07 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
       <description></description>
     </item>
     
@@ -23,24 +77,6 @@
       <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web scraping</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
-      <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computer vision</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</link>
-      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</guid>
       <description></description>
     </item>
     
@@ -59,15 +95,6 @@
       <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>financial analysis</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</link>
-      <pubDate>Mon, 29 Mar 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</guid>
       <description></description>
     </item>
     
@@ -95,15 +122,6 @@
       <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web development</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</link>
-      <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
       <description></description>
     </item>
     

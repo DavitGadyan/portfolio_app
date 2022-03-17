@@ -2,11 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</loc>
-    <lastmod>2021-07-02T12:14:34+06:00</lastmod>
+    <loc>https://DavitGadyan.github.io/portfolio_app/blog/</loc>
+    <lastmod>2022-03-10T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/</loc>
-    <lastmod>2021-07-02T12:14:34+06:00</lastmod>
+    <lastmod>2022-03-10T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/tags/education/</loc>
+    <lastmod>2022-03-10T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</loc>
+    <lastmod>2022-03-10T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/tags/</loc>
+    <lastmod>2022-03-10T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</loc>
+    <lastmod>2022-01-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</loc>
+    <lastmod>2022-01-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/tags/work/</loc>
+    <lastmod>2022-01-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/api/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-13/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</loc>
+    <lastmod>2021-10-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</loc>
+    <lastmod>2021-09-29T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-14/</loc>
+    <lastmod>2021-09-29T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</loc>
+    <lastmod>2021-09-29T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-15/</loc>
+    <lastmod>2021-07-07T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</loc>
+    <lastmod>2021-07-07T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</loc>
+    <lastmod>2021-07-07T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</loc>
     <lastmod>2021-07-02T12:14:34+06:00</lastmod>
@@ -14,22 +68,7 @@
     <loc>https://DavitGadyan.github.io/portfolio_app/tags/math/</loc>
     <lastmod>2021-07-02T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/blog/</loc>
-    <lastmod>2021-07-02T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/tags/</loc>
-    <lastmod>2021-07-02T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/</loc>
-    <lastmod>2021-06-30T12:14:34+06:00</lastmod>
-  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-4/</loc>
-    <lastmod>2021-06-30T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</loc>
-    <lastmod>2021-06-30T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/</loc>
     <lastmod>2021-06-30T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</loc>
@@ -37,12 +76,6 @@
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-11/</loc>
     <lastmod>2021-06-09T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</loc>
-    <lastmod>2021-06-09T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/</loc>
-    <lastmod>2021-04-19T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</loc>
     <lastmod>2021-04-19T12:14:34+06:00</lastmod>
@@ -55,9 +88,6 @@
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-5/</loc>
     <lastmod>2021-04-19T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/</loc>
-    <lastmod>2021-03-29T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-12/</loc>
     <lastmod>2021-03-29T12:14:34+06:00</lastmod>
@@ -80,9 +110,6 @@
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</loc>
     <lastmod>2020-12-04T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</loc>
-    <lastmod>2020-12-04T12:14:34+06:00</lastmod>
-  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-6/</loc>
     <lastmod>2020-12-03T12:14:34+06:00</lastmod>
   </url><url>
@@ -97,10 +124,6 @@
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/recommender-system/</loc>
     <lastmod>2019-02-10T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</loc>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</loc>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-4/</loc>
   </url><url>

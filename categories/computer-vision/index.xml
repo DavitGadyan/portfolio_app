@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Document OCR &amp; data extraction</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-14/</link>
+      <pubDate>Wed, 29 Sep 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-14/</guid>
+      <description>Goal of the project was to extract data from company&amp;rsquo;s various documents like driver licenses, insurance cards.</description>
+    </item>
+    
     <item>
       <title>Computer Vision | IOT</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</link>

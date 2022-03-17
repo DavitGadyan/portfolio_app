@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>education</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/tags/education/</link>
+      <pubDate>Thu, 10 Mar 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/tags/education/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data science</title>
       <link>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</link>
-      <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
+      <pubDate>Wed, 12 Jan 2022 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/tags/work/</link>
+      <pubDate>Wed, 12 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/tags/work/</guid>
       <description></description>
     </item>
     

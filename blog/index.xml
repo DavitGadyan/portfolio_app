@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oh My Blog! on David Gadyan</title>
+    <title>Blog on David Gadyan</title>
     <link>https://DavitGadyan.github.io/portfolio_app/blog/</link>
-    <description>Recent content in Oh My Blog! on David Gadyan</description>
+    <description>Recent content in Blog on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EXAM PERIOD!</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</link>
+      <pubDate>Thu, 10 Mar 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</guid>
+      <description>IETLS &amp;amp; GRE I believe that continuous education is extremelly important if one wants to succeed in this life.</description>
+    </item>
+    
+    <item>
+      <title>Expert Vetted status on Upwork!</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</link>
+      <pubDate>Wed, 12 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</guid>
+      <description>Received Expert Vetted status on popular platform After 4 years of working on Upwork with 100+ clients with over 6000 hours, I have received the highest rank on Upwork.</description>
+    </item>
+    
     <item>
       <title>Importance of Math in Data Science</title>
       <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</link>
@@ -15,24 +33,6 @@
       
       <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</guid>
       <description>Do I really need to learn so much math?!?! This blog post aims to discuss and outline my view on the level of math knowledge needed for the data science.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-3/</guid>
-      <description></description>
     </item>
     
     <item>
