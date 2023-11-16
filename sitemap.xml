@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-18/</loc>
+    <lastmod>2023-11-03T12:14:34+06:00</lastmod>
+  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/</loc>
+    <lastmod>2023-11-03T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</loc>
     <lastmod>2023-11-03T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/</loc>
     <lastmod>2023-11-03T12:14:34+06:00</lastmod>
   </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</loc>
+    <lastmod>2023-11-03T12:14:34+06:00</lastmod>
+  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-16/</loc>
+    <lastmod>2023-11-03T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</loc>
     <lastmod>2023-11-03T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/ml-ops/</loc>
@@ -19,6 +31,18 @@
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</loc>
     <lastmod>2023-11-03T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-19/</loc>
+    <lastmod>2023-07-15T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</loc>
+    <lastmod>2023-07-03T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-17/</loc>
+    <lastmod>2023-07-03T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</loc>
+    <lastmod>2023-07-03T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/blog/</loc>
     <lastmod>2022-03-10T12:14:34+06:00</lastmod>
@@ -62,12 +86,6 @@
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-15/</loc>
     <lastmod>2021-07-07T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</loc>
-    <lastmod>2021-07-07T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</loc>
-    <lastmod>2021-07-07T12:14:34+06:00</lastmod>
-  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</loc>
     <lastmod>2021-07-02T12:14:34+06:00</lastmod>
   </url><url>
@@ -77,16 +95,10 @@
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-4/</loc>
     <lastmod>2021-06-30T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</loc>
-    <lastmod>2021-06-09T12:14:34+06:00</lastmod>
-  </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-11/</loc>
     <lastmod>2021-06-09T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</loc>
-    <lastmod>2021-04-19T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</loc>
     <lastmod>2021-04-19T12:14:34+06:00</lastmod>
   </url><url>
     <loc>https://DavitGadyan.github.io/portfolio_app/categories/iot/</loc>

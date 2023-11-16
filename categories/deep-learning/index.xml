@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Nov 2023 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Google Vision AI System</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-18/</link>
+      <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-18/</guid>
+      <description>Project goals were to utilize Google Cloud Product Search API and detect clothers similar to ones user of this application provides.</description>
+    </item>
+    
+    <item>
+      <title>Need to develop matching AI powered web app platform</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-19/</link>
+      <pubDate>Sat, 15 Jul 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-19/</guid>
+      <description>Project goals were to create AI powered website to calculate synergy scores for SMEs.</description>
+    </item>
+    
     <item>
       <title>Computer Vision | IOT</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-3/</link>

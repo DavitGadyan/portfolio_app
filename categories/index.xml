@@ -9,6 +9,33 @@
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
     <lastBuildDate>Fri, 03 Nov 2023 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>cloud</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</link>
+      <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</link>
+      <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
+      <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ml ops</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/ml-ops/</link>
       <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
@@ -23,6 +50,24 @@
       <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chat gpt</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</link>
+      <pubDate>Mon, 03 Jul 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web scraping</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
+      <pubDate>Mon, 03 Jul 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
       <description></description>
     </item>
     
@@ -59,42 +104,6 @@
       <pubDate>Wed, 29 Sep 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
-      <pubDate>Wed, 07 Jul 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web scraping</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</link>
-      <pubDate>Wed, 07 Jul 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</link>
-      <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</link>
-      <pubDate>Mon, 19 Apr 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/</guid>
       <description></description>
     </item>
     
