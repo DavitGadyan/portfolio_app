@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Wed, 29 Sep 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Apr 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expert Needed for AI-Generated Recreation of Billboard Publicity Image</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</link>
+      <pubDate>Wed, 03 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</guid>
+      <description>Project goals were to develop AI algorithm to detect billboards in images, extract boundaries, upscale image to higher resolution and change the details in the image.</description>
+    </item>
+    
+    <item>
+      <title>AI Models (Aitana Lopez)</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</link>
+      <pubDate>Mon, 12 Feb 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</guid>
+      <description>Project goals were to develop AI model like Aitana Lopez (@fit_aitana)</description>
+    </item>
+    
     <item>
       <title>Document OCR &amp; data extraction</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-14/</link>

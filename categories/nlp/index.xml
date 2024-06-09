@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Wed, 27 Jan 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data analysis of resumes</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-20/</link>
+      <pubDate>Sun, 31 Dec 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-20/</guid>
+      <description>Project goals were to create apply NLP and AI tools, models to analyze and compare two sets of resumes to find not obvious patterns, similarities and differences between 2 major group (High VS Low Value Prospect Candidates)</description>
+    </item>
+    
     <item>
       <title>LDA and LIWC Analysis of tweets</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</link>

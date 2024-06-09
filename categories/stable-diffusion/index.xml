@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stable diffusion on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/stable-diffusion/</link>
+    <description>Recent content in stable diffusion on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Wed, 03 Apr 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/stable-diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expert Needed for AI-Generated Recreation of Billboard Publicity Image</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</link>
+      <pubDate>Wed, 03 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</guid>
+      <description>Project goals were to develop AI algorithm to detect billboards in images, extract boundaries, upscale image to higher resolution and change the details in the image.</description>
+    </item>
+    
+    <item>
+      <title>AI Models (Aitana Lopez)</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</link>
+      <pubDate>Mon, 12 Feb 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</guid>
+      <description>Project goals were to develop AI model like Aitana Lopez (@fit_aitana)</description>
+    </item>
+    
+  </channel>
+</rss>

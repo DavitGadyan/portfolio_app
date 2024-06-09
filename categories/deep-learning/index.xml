@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 03 Nov 2023 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multilingual AI Text Generation System</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-22/</link>
+      <pubDate>Tue, 28 May 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-22/</guid>
+      <description>Project goals were to develop and fine-tune LLM model to generate text which CHAT GPT cannot generate due to censorship restrictions.</description>
+    </item>
+    
+    <item>
+      <title>Data Science Consulting &amp; Review</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-25/</link>
+      <pubDate>Tue, 09 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-25/</guid>
+      <description>Project goals were to manage a team of AI engineers to develop hybrid recommender system.</description>
+    </item>
+    
+    <item>
+      <title>Expert Needed for AI-Generated Recreation of Billboard Publicity Image</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</link>
+      <pubDate>Wed, 03 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-24/</guid>
+      <description>Project goals were to develop AI algorithm to detect billboards in images, extract boundaries, upscale image to higher resolution and change the details in the image.</description>
+    </item>
+    
+    <item>
+      <title>AI Models (Aitana Lopez)</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</link>
+      <pubDate>Mon, 12 Feb 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-21/</guid>
+      <description>Project goals were to develop AI model like Aitana Lopez (@fit_aitana)</description>
+    </item>
+    
+    <item>
+      <title>Data analysis of resumes</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-20/</link>
+      <pubDate>Sun, 31 Dec 2023 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-20/</guid>
+      <description>Project goals were to create apply NLP and AI tools, models to analyze and compare two sets of resumes to find not obvious patterns, similarities and differences between 2 major group (High VS Low Value Prospect Candidates)</description>
+    </item>
+    
     <item>
       <title>Build a Google Vision AI System</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-18/</link>

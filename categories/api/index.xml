@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 12 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multilingual AI Text Generation System</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-22/</link>
+      <pubDate>Tue, 28 May 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-22/</guid>
+      <description>Project goals were to develop and fine-tune LLM model to generate text which CHAT GPT cannot generate due to censorship restrictions.</description>
+    </item>
+    
     <item>
       <title>KPI Analysis</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-13/</link>
