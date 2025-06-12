@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>langgraph on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/langgraph/</link>
+    <description>Recent content in langgraph on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Tue, 06 Aug 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/langgraph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini LangGraph LLM Agent</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</link>
+      <pubDate>Tue, 06 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</guid>
+      <description>Project goals were to enhance and extend a document‐review API for a law-firm due diligence workflow, adding dynamic verification checks, external ABN/ACN validation, and configurable recommendations—all powered by a MultiAgent AI pipeline.</description>
+    </item>
+    
+  </channel>
+</rss>

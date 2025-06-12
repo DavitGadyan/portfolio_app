@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Thu, 07 Mar 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Aug 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data visualization expert</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-29/</link>
+      <pubDate>Thu, 15 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-29/</guid>
+      <description>Project goals were to deliver high-fidelity, animated data visualizations and comprehensive reports—integrating Python, relational databases, and modern animation tools—to meet a client’s need for a dynamic race-chart animation.</description>
+    </item>
+    
     <item>
       <title>Data Expert with R software</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-23/</link>

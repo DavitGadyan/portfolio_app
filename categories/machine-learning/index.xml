@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 09 Apr 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data visualization expert</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-30/</link>
+      <pubDate>Wed, 30 Oct 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-30/</guid>
+      <description>Project goals were to build an AI‐driven real estate analysis platform that models and compares new‐construction scenarios—home styles, sizes, garages, basements, prices and locations—to pinpoint the most profitable builds on each lot.</description>
+    </item>
+    
+    <item>
+      <title>Classification of industry of firm</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-27/</link>
+      <pubDate>Thu, 08 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-27/</guid>
+      <description>Project goals were to infer the industry sectors of New York–based firms—without pre-existing labels—by matching them to reference datasets and then building a machine-learning model to predict NAICS/SIC codes at scale.</description>
+    </item>
+    
+    <item>
+      <title>Gemini LangGraph LLM Agent</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</link>
+      <pubDate>Tue, 06 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</guid>
+      <description>Project goals were to enhance and extend a document‐review API for a law-firm due diligence workflow, adding dynamic verification checks, external ABN/ACN validation, and configurable recommendations—all powered by a MultiAgent AI pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Quant /Python/ PCA Analysis</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-26/</link>
+      <pubDate>Mon, 29 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-26/</guid>
+      <description>Project goals were to build a streamlined Python pipeline to perform PCA analysis on different sectors of the yield curve and flag which sectors were cheap or expensive based on their residuals.</description>
+    </item>
+    
     <item>
       <title>Data Science Consulting &amp; Review</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-25/</link>

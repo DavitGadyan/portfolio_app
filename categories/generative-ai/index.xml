@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 28 May 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/generative-ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Aug 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/generative-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classification of industry of firm</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-27/</link>
+      <pubDate>Thu, 08 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-27/</guid>
+      <description>Project goals were to infer the industry sectors of New York–based firms—without pre-existing labels—by matching them to reference datasets and then building a machine-learning model to predict NAICS/SIC codes at scale.</description>
+    </item>
+    
+    <item>
+      <title>Gemini LangGraph LLM Agent</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</link>
+      <pubDate>Tue, 06 Aug 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-28/</guid>
+      <description>Project goals were to enhance and extend a document‐review API for a law-firm due diligence workflow, adding dynamic verification checks, external ABN/ACN validation, and configurable recommendations—all powered by a MultiAgent AI pipeline.</description>
+    </item>
+    
     <item>
       <title>Multilingual AI Text Generation System</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-22/</link>

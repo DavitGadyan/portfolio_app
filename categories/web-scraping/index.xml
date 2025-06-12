@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Mon, 03 Jul 2023 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Oct 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data visualization expert</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-30/</link>
+      <pubDate>Wed, 30 Oct 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-30/</guid>
+      <description>Project goals were to build an AI‐driven real estate analysis platform that models and compares new‐construction scenarios—home styles, sizes, garages, basements, prices and locations—to pinpoint the most profitable builds on each lot.</description>
+    </item>
+    
     <item>
       <title>Summarize &amp; extracting information from websites using CHAT GPT</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-17/</link>

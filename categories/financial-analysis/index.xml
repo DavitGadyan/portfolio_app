@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 12 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Apr 2024 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/financial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quant /Python/ PCA Analysis</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-26/</link>
+      <pubDate>Mon, 29 Apr 2024 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-26/</guid>
+      <description>Project goals were to build a streamlined Python pipeline to perform PCA analysis on different sectors of the yield curve and flag which sectors were cheap or expensive based on their residuals.</description>
+    </item>
+    
     <item>
       <title>KPI Analysis</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-13/</link>
