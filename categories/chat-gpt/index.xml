@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Fri, 04 Jul 2025 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Mar 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai Lead Scoring S1mple.ai</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-35/</link>
+      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-35/</guid>
+      <description>Project goals were to build a AI Lead Score algorithm to detect customers who are more likely to convert again and ones at the risk of churn to concentrate marketing efforts with targeted high-impact campaings</description>
+    </item>
+    
+    <item>
+      <title>AI Health care Virgil.ai</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-34/</link>
+      <pubDate>Tue, 03 Feb 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-34/</guid>
+      <description>Project goals were to automate onaboarding and assist US users to find best insurance plans without any hustle using AI Agentic system with support of custom tools, MCPs.</description>
+    </item>
+    
     <item>
       <title>S1mple.ai</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-33/</link>

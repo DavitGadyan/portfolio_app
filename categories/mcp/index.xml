@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mcp on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/mcp/</link>
+    <description>Recent content in mcp on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
+    <lastBuildDate>Sat, 28 Mar 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai Lead Scoring S1mple.ai</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-35/</link>
+      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-35/</guid>
+      <description>Project goals were to build a AI Lead Score algorithm to detect customers who are more likely to convert again and ones at the risk of churn to concentrate marketing efforts with targeted high-impact campaings</description>
+    </item>
+    
+  </channel>
+</rss>
