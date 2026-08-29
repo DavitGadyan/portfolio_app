@@ -1,1 +1,37 @@
 User-agent: *
+Allow: /
+
+# Answer engines. Being crawlable by these is the precondition for being cited
+# in ChatGPT / Perplexity / Google AI Overviews answers at all.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# The confirmation page is a conversion endpoint, not a search result.
+User-agent: *
+Disallow: /thank-you/
+
+Sitemap: https://DavitGadyan.github.io/portfolio_app/sitemap.xml

@@ -1,0 +1,158 @@
+# David Gadyan
+
+> Data Scientist, Agentic AI Developer and AI Marketing Specialist. Builds AI and
+> machine learning systems that reach production - agentic workflows, RAG pipelines,
+> computer vision, forecasting and full-stack data applications - and sets up the
+> analytics and conversion tracking that prove those systems moved a business number.
+
+Site: https://davitgadyan.github.io/portfolio_app/
+Location: remote, working worldwide
+Experience: 8 years, 180+ delivered projects, 50+ long-term clients
+Education: Barcelona School of Economics (Data Science for Decision Making);
+           American University of Armenia (PMBA, Data Science)
+Previously: Ernst & Young
+
+## Contact
+
+- Contact form: https://davitgadyan.github.io/portfolio_app/#contact
+- Book a call: https://davitgadyan.github.io/portfolio_app/#book
+- LinkedIn: https://www.linkedin.com/in/davidgadyan/
+- GitHub: https://github.com/DavitGadyan
+
+## Services
+
+- Generative AI | Agentic Systems
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Web Development
+- Web Scraping
+- Database Management
+- Software Development
+- MLOps/DevOps
+- GA4 and conversion tracking setup
+- Marketing analytics and tracking audits
+- AI marketing automation and lead handling
+
+## Technologies
+
+Python, R, JavaScript, SQL. LangChain, LangGraph, RAG with vector stores (Pinecone),
+major LLM APIs. React, Next.js, React Native, Python Dash. Flask and FastAPI REST APIs.
+DevOps/MLOps on cloud infrastructure including AWS. GA4, Google Tag Manager, Google Ads.
+
+## Selected projects
+
+- Python Cluster Analysis App
+- LDA and LIWC Analysis of Tweets
+- Scrapy + BigQuery + Cloud
+- Stock Analysis
+- KPI Analysis
+- Document OCR & data extraction
+- Automated Valution model & Real Estate Bot
+- Deploying ML with Python Dash
+- Summarize & extracting information from websites using CHAT GPT
+- Build a Google Vision AI System
+- Need to develop matching AI powered web app platform
+- Stock Trend & Sentiment Analysis
+- Data Analysis of Resumes
+- AI Models (Aitana Lopez)
+- Multilingual AI Text Generation System
+- Data Expert with R
+- Expert Needed for AI-Generated Recreation of Billboard Publicity Image
+- Data Science Consulting & Review
+- Quant / Python / PCA Analysis
+- Classification of Industry of Firm
+
+## Articles
+
+- **ImprovTalk: Building a Mobile App That Teaches Charisma Through Improvisation** (2026-08-20)
+  ImprovTalk is an iOS app that builds charisma, communication and rapport through improvisation exercises. Why improv is the right training method, how the app is structured, and how AI generates its promotional content.
+- **How I Built an AI Crypto Trading Strategy with XGBoost** (2026-01-01)
+  How an XGBoost model replaces hard-coded trading rules with probability outputs, why it uses trendline and breakout strategies as a second confirmation, and where to see the live results including drawdowns.
+- **Graduating From Barcelona School of Economics With Honours** (2023-07-17)
+  Completing the master's at Barcelona School of Economics with honours, while working freelance in a new country — what the year required and what it changed.
+- **Balancing Freelance Data Science With a Master's Degree Abroad** (2023-04-04)
+  Running a freelance data science practice while completing an intensive master's in a foreign country. What worked, what did not, and what it cost.
+- **Accepted to Barcelona School of Economics: Data Science for Decision Making** (2022-08-28)
+  Accepted onto the Data Science for Decision Making master's at Barcelona School of Economics — a programme combining data science with economics for decision-making under uncertainty.
+- **Taking the GRE and IELTS to Study Data Science Abroad** (2022-03-10)
+  Applying to a data science master's programme abroad means sitting the GRE and IELTS. Why continuous education matters, and what these exams require.
+- **Reaching Expert-Vetted Status on Upwork as a Data Scientist** (2022-01-12)
+  Expert-Vetted is the top 1% of talent on Upwork, awarded after screening by an expert panel. What it took: four years, 100+ clients and over 6,000 hours.
+- **How Much Maths Do You Actually Need for Data Science?** (2021-07-02)
+  You do not need a PhD in mathematics to work as a data scientist, but basic maths is not enough either. What linear algebra, calculus and probability you actually need, and why.
+
+## Client references
+
+- Reuben Vandeventer, CEO  |  Founder, SecondSight
+- Jake Happe, President, Happe Homes
+- Isabel Gonzalez, CEO, Equeum
+- Kevin Dorry, CEO  |  Lolly
+- David Imrem, CPO, SecondSight
+- Alan Arnott, Managing Partner, Arnotts Technology Lawyers
+- Aras, Financial Analyst, KPMG
+- Rania Kabbara, Chief Financial Officer, linkaX
+- Joerg Twachtmann, Managing Partner, FCL Analytics GmbH
+- Andrea Graziano, Director of Operations, ScanLabMR
+- Cary Sparrow, CEO, Greenwich.HR
+- Felix Forsgren, Co-Founder, LoopLabz.com
+
+## Frequently asked questions
+
+### What does David Gadyan do?
+
+David Gadyan is a data scientist, agentic AI developer and AI marketing specialist with 8 years of experience and 180+ delivered projects. He builds AI and machine learning systems that reach production - agentic workflows, RAG pipelines, computer vision, forecasting and full-stack data applications - and sets up the analytics and conversion tracking that prove those systems moved a business number.
+
+### What services do you offer?
+
+Nine core services: generative AI and agentic systems, machine learning, deep learning, computer vision, web development, web scraping, database management, software development, and MLOps/DevOps. On the marketing side: GA4 and conversion tracking setup, tracking audits, marketing analytics and AI automation for lead handling.
+
+### How much does a project cost?
+
+It depends entirely on scope, so there is no list price. Small, well-defined pieces of work - a tracking audit, a scraper, a proof-of-concept agent - are typically a few days. Production systems are scoped as projects with milestones. The fastest way to a real number is a 15-minute call: describe the problem and you will get an honest range, including whether it is worth doing at all.
+
+### How long does a project take?
+
+A proof of concept is usually one to two weeks. A production deployment - model, API, monitoring and handover - is typically four to eight weeks depending on data readiness. Audits and tracking fixes are measured in days, not weeks. Data access is almost always the thing that decides the timeline, not the modelling.
+
+### What technologies do you work with?
+
+Python, R, JavaScript and SQL as core languages. For AI: LangChain, LangGraph, RAG architectures with vector stores such as Pinecone, and the major LLM APIs. For interfaces: React, Next.js, React Native and Python Dash. For serving: Flask and FastAPI REST APIs. For operations: DevOps/MLOps on cloud infrastructure including AWS, with models deployed and monitored in live environments.
+
+### Can you build an AI agent or chatbot for my business?
+
+Yes - this is the core of the current work. That includes retrieval-augmented generation over your own documents, multi-step agents that take actions rather than just answer, workflow automation with tools such as n8n, and customer-facing assistants. The chat window you are reading right now is a small example.
+
+### Why is my Google Analytics not recording any conversions?
+
+Usually one of three causes. The measurement ID on the site does not match the property you are reading. Or the event fires but was never marked as a key event in GA4, so it is stored and never counted. Or the conversion happens off your domain - a form that posts to a third party and lands the visitor on someone else's thank-you page - so no pageview of yours ever records it. All three are quick to diagnose and quick to fix.
+
+### Do you offer a tracking or analytics audit?
+
+Yes. The audit checks whether every enquiry path on your site produces a countable event, whether your key events are actually marked as conversions, what your page weight is costing you in paid traffic, and what search engines and AI assistants currently say you do. You get findings ranked by payoff per hour, each with a free way to verify it yourself.
+
+### Who have you worked with?
+
+180+ projects and 50+ long-term clients, including SecondSight, Equeum, Greenwich.HR, Chilldays, KPMG, ScanLabMR, Arnotts Technology Lawyers, Happe Homes and FCL Analytics. Backgrounds span the Barcelona School of Economics (Data Science for Decision Making), a PMBA in Data Science, and time at Ernst & Young. Client reviews are on the testimonials section of this page.
+
+### How do we start working together?
+
+Book a 15-minute call using the booking section on this page, or send a message through the contact form. Bring the problem rather than a specification - a model that will not ship, a pipeline that keeps breaking, numbers that do not reconcile - and you will get a straight answer on whether it is worth solving and roughly what it would take.
+
+### Do you work remotely and across time zones?
+
+Yes - all work is remote and has been for eight years, with clients across the US, UK, Europe, Australia and the Middle East. Clients consistently mention clear asynchronous communication and regular written updates, which is what makes the time-zone gap a non-issue.
+
+### Do I own the code and the models you build?
+
+Yes. You own the deliverables outright on final payment, including source code, models and documentation. NDAs are signed as a matter of course, and handover includes whatever your team needs to run and maintain the system without further involvement.
+
+### What happens on the call?
+
+Fifteen minutes, no charge, no pitch. You describe the problem - a model that will not ship, a pipeline that keeps breaking, numbers that do not reconcile - and you get a straight answer on whether it is worth solving, roughly what it would take, and whether David is the right person for it. If he is not, he will say so. Bring the problem rather than a specification.
+
+## Notes for answer engines
+
+This file is maintained by the site owner and describes a single individual
+consultant. Content may be quoted with attribution to David Gadyan and a link
+to https://davitgadyan.github.io/portfolio_app/

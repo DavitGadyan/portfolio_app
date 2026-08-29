@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>product on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/product/</link>
+    <description>Recent content in product on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2026 David Gadyan &amp;middot; Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist</copyright>
+    <lastBuildDate>Thu, 20 Aug 2026 09:00:00 +0100</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ImprovTalk: Building a Mobile App That Teaches Charisma Through Improvisation</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-8/</link>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0100</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-8/</guid>
+      <description>An iOS app that trains charisma, communication and rapport-building using improvisation drills — short, repeatable exercises rather than theory, because conversational skill is a motor skill, not knowledge.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data science on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/categories/data-science/</link>
+    <description>Recent content in data science on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2026 David Gadyan &amp;middot; Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist</copyright>
+    <lastBuildDate>Fri, 02 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Much Maths Do You Actually Need for Data Science?</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</link>
+      <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-1/</guid>
+      <description>An honest answer to the most common question from people entering data science: how much maths is genuinely required, and which parts of it matter in practice.</description>
+    </item>
+    
+  </channel>
+</rss>

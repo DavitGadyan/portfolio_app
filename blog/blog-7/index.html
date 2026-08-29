@@ -1,0 +1,926 @@
+
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>How I Built an AI Crypto Trading Strategy with XGBoost | David Gadyan</title>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="How an XGBoost model replaces hard-coded trading rules with probability outputs, why it uses trendline and breakout strategies as a second confirmation, and where to see the live results including drawdowns.">
+  <meta name="author" content="David Gadyan">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="generator" content="Hugo 0.105.0">
+
+  
+  <link rel="canonical" href="https://DavitGadyan.github.io/portfolio_app/blog/blog-7/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/hover/hover.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.carousel.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.theme.default.min.css">
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/plugins/text-animation/text-animation.css">
+  
+
+  
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/css/style.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="https://DavitGadyan.github.io/portfolio_app/css/custom.min.css" media="screen">
+
+  
+  <link rel="shortcut icon" href="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" type="image/x-icon">
+  <link rel="icon" href="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" type="image/x-icon">
+
+  
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="David Gadyan">
+  <meta property="og:title" content="How I Built an AI Crypto Trading Strategy with XGBoost | David Gadyan">
+  <meta property="og:description" content="How an XGBoost model replaces hard-coded trading rules with probability outputs, why it uses trendline and breakout strategies as a second confirmation, and where to see the live results including drawdowns.">
+  <meta property="og:url" content="https://DavitGadyan.github.io/portfolio_app/blog/blog-7/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://DavitGadyan.github.io/portfolio_app/images/portfolio/algo-trading.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="David Gadyan — Data Scientist &amp; Agentic AI Developer | AI Marketing Specialist">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How I Built an AI Crypto Trading Strategy with XGBoost | David Gadyan">
+  <meta name="twitter:description" content="How an XGBoost model replaces hard-coded trading rules with probability outputs, why it uses trendline and breakout strategies as a second confirmation, and where to see the live results including drawdowns.">
+  <meta name="twitter:image" content="https://DavitGadyan.github.io/portfolio_app/images/portfolio/algo-trading.jpg">
+  
+  <meta name="twitter:creator" content="@Dave18381384">
+  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://DavitGadyan.github.io/portfolio_app/#person",
+      "@type": "Person",
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Barcelona School of Economics"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "American University of Armenia"
+        }
+      ],
+      "description": "I build agentic AI systems, ML models and data pipelines that ship to production - and the tracking that proves they worked. 180+ projects, 8 years, 50+ long-term clients.",
+      "image": "https://DavitGadyan.github.io/portfolio_app/images/share-card.jpg",
+      "jobTitle": "Data Scientist, Agentic AI Developer \u0026 AI Marketing Specialist",
+      "knowsAbout": [
+        "Agentic AI",
+        "Generative AI",
+        "Large Language Models",
+        "Retrieval Augmented Generation",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "MLOps",
+        "Data Engineering",
+        "Web Scraping",
+        "Data Visualization",
+        "Marketing analytics",
+        "Conversion tracking",
+        "Google Analytics 4",
+        "Google Tag Manager",
+        "Google Ads",
+        "Lead scoring",
+        "Marketing automation"
+      ],
+      "name": "David Gadyan",
+      "sameAs": [
+        "https://twitter.com/Dave18381384",
+        "https://github.com/DavitGadyan",
+        "https://www.linkedin.com/in/davidgadyan/"
+      ],
+      "url": "https://DavitGadyan.github.io/portfolio_app/",
+      "worksFor": {
+        "@id": "https://DavitGadyan.github.io/portfolio_app/#service"
+      }
+    },
+    {
+      "@id": "https://DavitGadyan.github.io/portfolio_app/#service",
+      "@type": "ProfessionalService",
+      "areaServed": "Worldwide",
+      "availableLanguage": [
+        "English"
+      ],
+      "description": "I build agentic AI systems, ML models and data pipelines that ship to production - and the tracking that proves they worked. 180+ projects, 8 years, 50+ long-term clients.",
+      "founder": {
+        "@id": "https://DavitGadyan.github.io/portfolio_app/#person"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Generative AI | Agentic Systems"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Machine Learning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Deep Learning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Computer Vision"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full Stack Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Scraping"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Database Management"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Software Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "MLOps/DevOps/LLMOps"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "GA4 \u0026 Conversion Tracking Setup"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Marketing Analytics Audit"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Marketing Automation"
+            }
+          }
+        ],
+        "name": "Services"
+      },
+      "image": "https://DavitGadyan.github.io/portfolio_app/images/share-card.jpg",
+      "name": "David Gadyan — AI, Data Science \u0026 Marketing Analytics",
+      "sameAs": [
+        "https://twitter.com/Dave18381384",
+        "https://github.com/DavitGadyan",
+        "https://www.linkedin.com/in/davidgadyan/"
+      ],
+      "url": "https://DavitGadyan.github.io/portfolio_app/"
+    },
+    {
+      "@id": "https://DavitGadyan.github.io/portfolio_app/#website",
+      "@type": "WebSite",
+      "description": "I build agentic AI systems, ML models and data pipelines that ship to production - and the tracking that proves they worked. 180+ projects, 8 years, 50+ long-term clients.",
+      "inLanguage": "en-us",
+      "name": "David Gadyan",
+      "publisher": {
+        "@id": "https://DavitGadyan.github.io/portfolio_app/#person"
+      },
+      "url": "https://DavitGadyan.github.io/portfolio_app/"
+    }
+  ]
+}
+</script>
+
+  <script>window.dataLayer = window.dataLayer || [];</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYHRZEKV8R"></script>
+<script>
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KYHRZEKV8R');
+  
+</script>
+
+</head>
+<body>
+<div class="preloader" id="preloader" role="status" aria-label="Loading">
+  <div class="preloader-spinner"></div>
+</div>
+
+
+<section class="menu menu-fix" id="home">
+  <nav>
+    
+    <div class="menu-container menu-normal">
+      <ul class="desktop-menu list-inline mb-0 justify-content-end" id="desktop-menu">
+        <a class="mr-auto" href="https://DavitGadyan.github.io/portfolio_app/">
+          
+          <img class="img-fluid" width="150px" src="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png"
+            alt="David Gadyan">
+          
+        </a>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app">Home</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#about">About me</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#service">Service</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#portfolio">Portfolio</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#testimonial">Testimonial</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#book">Book a call</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/#contact">Contact</a></li>
+        
+        <li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href="https://DavitGadyan.github.io/portfolio_app/blog">Blog</a></li>
+        
+      </ul>
+      
+      
+
+      
+      <div class="mobile-menu">
+        <a class="menu-link">
+          <div class="mobile-menu-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div class="mobile-menu-logo"><a href="https://DavitGadyan.github.io/portfolio_app/"><img class="img-fluid"
+              src="https://DavitGadyan.github.io/portfolio_app/images/my-logo.png" alt="David Gadyan"></a>
+        </div>
+        <div class="menu-slider">
+          <nav>
+            <ul class="mobile-menu-list">
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app">Home</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#about">About me</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#service">Service</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#portfolio">Portfolio</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#testimonial">Testimonial</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#book">Book a call</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/#contact">Contact</a></li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href="https://DavitGadyan.github.io/portfolio_app/blog">Blog</a></li>
+              
+            </ul>
+            
+            <ul class="mobile-menu-icons list-inline">
+              
+              <li><a href="https://twitter.com/Dave18381384"><i class="fab fa-twitter"></i></a></li>
+              
+              <li><a href="https://github.com/DavitGadyan"><i class="fab fa-github"></i></a></li>
+              
+              <li><a href="https://www.linkedin.com/in/davidgadyan/"><i class="fab fa-linkedin"></i></a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<div style="height: 50px;"></div>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://DavitGadyan.github.io/portfolio_app/blog/blog-7/#article",
+  "@type": "BlogPosting",
+  "about": [
+    "Algorithmic trading",
+    "Machine learning",
+    "Cryptocurrency"
+  ],
+  "articleSection": "Algorithmic Trading",
+  "author": {
+    "@id": "https://DavitGadyan.github.io/portfolio_app/#person",
+    "@type": "Person",
+    "name": "David Gadyan",
+    "url": "https://DavitGadyan.github.io/portfolio_app/"
+  },
+  "dateModified": "2026-08-29T09:00:00+01:00",
+  "datePublished": "2026-01-01T09:00:00+01:00",
+  "description": "How an XGBoost model replaces hard-coded trading rules with probability outputs, why it uses trendline and breakout strategies as a second confirmation, and where to see the live results including drawdowns.",
+  "headline": "How I Built an AI Crypto Trading Strategy with XGBoost",
+  "image": [
+    "https://DavitGadyan.github.io/portfolio_app/images/portfolio/algo-trading.jpg"
+  ],
+  "inLanguage": "en-us",
+  "isPartOf": {
+    "@id": "https://DavitGadyan.github.io/portfolio_app/blog/",
+    "@type": "Blog",
+    "name": "David Gadyan — Blog"
+  },
+  "keywords": "algorithmic trading, machine learning, xgboost, crypto, quantitative research, machine learning, trading",
+  "mainEntityOfPage": {
+    "@id": "https://DavitGadyan.github.io/portfolio_app/blog/blog-7/",
+    "@type": "WebPage"
+  },
+  "publisher": {
+    "@id": "https://DavitGadyan.github.io/portfolio_app/#person",
+    "@type": "Person",
+    "name": "David Gadyan"
+  },
+  "timeRequired": "PT5M",
+  "url": "https://DavitGadyan.github.io/portfolio_app/blog/blog-7/",
+  "wordCount": 856
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://DavitGadyan.github.io/portfolio_app/blog/blog-7/#faq",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An XGBoost gradient-boosted tree classifier. It takes dozens of technical indicators and engineered features as input and outputs a probability that a given setup will resolve profitably, replacing hard-coded if-then rules from individual strategies with a single calibrated signal."
+      },
+      "name": "What model does the strategy use?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tabular market features are exactly what gradient-boosted trees are best at. They train in minutes rather than hours, they handle mixed feature scales without heavy preprocessing, and their feature importances are inspectable — which matters when you need to explain why the model took a trade. Deep learning wins on raw sequences, not on a few hundred engineered indicators."
+      },
+      "name": "Why XGBoost rather than a neural network?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eight crypto symbols on Binance — BTC, ETH, SOL, XRP, ADA, DOGE, PEPE and TRUMP. Analysis runs on a higher timeframe while entries are executed on the 1-minute interval. Intervals from 1m to 1d can be inspected on the dashboard."
+      },
+      "name": "Which markets and timeframes does it trade?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Built-in trailing stops and position-level risk controls cap the loss on any single trade, and the dashboard tracks maximum drawdown and profit factor continuously. Risk control is part of the strategy definition rather than a manual overlay."
+      },
+      "name": "How is risk controlled?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — the live dashboard at aicrypto42.io/entries publishes win rate, equity curve, net PnL, maximum drawdown, profit factor and per-symbol P\u0026amp;L, over 1-day, 7-day, 30-day and 1-year windows. It shows losing periods as well as winning ones."
+      },
+      "name": "Can I see the real results?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is a description of an engineering project. Algorithmic trading carries substantial risk of loss, past results do not predict future results, and nothing here is a recommendation to trade or to invest."
+      },
+      "name": "Is this financial advice?"
+    }
+  ]
+}
+</script>
+
+<style></style>
+<section class="section " >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <div class="wow fadeInUp" data-wow-duration="1.5s">
+          <img src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/algo-trading.jpg" alt="How I Built an AI Crypto Trading Strategy with XGBoost" class="img-fluid w-100 mb-5"
+            width="1200" height="880" decoding="async">
+          <div class="about-me-text mb-4">
+            <h1>How I Built an AI Crypto Trading Strategy with XGBoost</h1>
+          </div>
+          <div class="article-meta">
+  <span class="article-author" itemprop="author">By <strong>David Gadyan</strong></span>
+  <span class="article-sep">·</span>
+  <time datetime="2026-01-01">
+    Published 1 January 2026
+  </time>
+  
+  <span class="article-sep">·</span>
+  <time datetime="2026-08-29">Updated 29 August 2026</time>
+  
+  <span class="article-sep">·</span>
+  <span>5 min read</span>
+  
+  <span class="article-sep">·</span>
+  <span class="article-topics">algorithmic trading, machine learning, xgboost, crypto, quantitative research</span>
+  
+</div>
+
+          
+<aside class="article-takeaways" aria-label="Key takeaways">
+  <h2 class="takeaways-title">Key takeaways</h2>
+  <ul><li>The model is an <strong>XGBoost classifier</strong>, not a set of hand-written rules. Dozens of indicators and engineered features go in; a single probability comes out.</li><li><strong>Two independent confirmations</strong> are required before a trade: the AI probability, plus a classical trendline or breakout signal on a separate analysis timeframe.</li><li>Analysis happens on a higher timeframe; <strong>execution happens on the 1-minute interval</strong>, so the entry is precise even though the decision is slower.</li><li><strong>Trailing stops and hard risk limits are part of the strategy</strong>, not an afterthought. Drawdown control is the difference between a backtest and a live account.</li><li>Every trade is published on a <strong>live public dashboard</strong> — including losing periods. A strategy whose results you cannot inspect is a claim, not a track record.</li></ul>
+</aside>
+
+          <div class="content"><p>Since <strong>1 January 2026</strong> I have been running an AI-driven crypto trading strategy live on Binance. This post explains how it is built and where you can inspect the results yourself.</p>
+<p>You can see the strategy and its live statistics at <strong><a href="https://aicrypto42.io/">aicrypto42.io</a></strong>, with the full performance dashboard at <strong><a href="https://aicrypto42.io/entries">aicrypto42.io/entries</a></strong>.</p>
+<h2 id="what-problem-does-an-ai-trading-model-actually-solve">What problem does an AI trading model actually solve?</h2>
+<p>Most retail trading strategies are a stack of hard-coded rules. <em>If RSI is below 30 and price crosses the 50 EMA and volume is above average, then buy.</em></p>
+<p>The problem is not that those rules are wrong. It is that they are <strong>fixed weights chosen by a human</strong>, applied identically to every market condition. RSI below 30 means something different in a trending market than in a ranging one, and something different again for BTC than for PEPE.</p>
+<p>A model solves a narrow version of this: instead of you deciding how much each indicator matters, the model learns it from what actually happened.</p>
+<h2 id="how-does-the-model-work">How does the model work?</h2>
+<p>The core is an <strong>XGBoost classifier</strong>. Dozens of technical indicators and engineered features go in. A single probability comes out.</p>
+<p>That probability replaces the entire if-then tree. Rather than asking <em>&ldquo;did all six of my conditions fire?&rdquo;</em>, the strategy asks <em>&ldquo;given everything I can currently measure, how likely is this setup to resolve profitably?&rdquo;</em></p>
+<p>This matters for a practical reason. Hard-coded rules combine badly — every condition you add makes the system fire less often, until it trades once a month. A model combines signals <strong>multiplicatively rather than restrictively</strong>: weak evidence from six sources can add up to a confident prediction, which a rule-based system would have thrown away.</p>
+<h2 id="why-require-a-second-confirmation">Why require a second confirmation?</h2>
+<p>Because a model that is confidently wrong is worse than no model.</p>
+<p>The strategy requires <strong>two independent confirmations</strong> before it takes a trade:</p>
+<ol>
+<li>The <strong>AI probability</strong> from the XGBoost model</li>
+<li>A classical <strong>trendline or breakout</strong> signal — widely used, well understood, and importantly <em>not</em> derived from the model</li>
+</ol>
+<p>These are computed on separate timeframes: an analysis timeframe for the decision, and an entry timeframe for execution. Agreement across both a different method and a different timescale filters out a large share of the model&rsquo;s false positives.</p>
+<p>This is a deliberate design choice with a cost. The strategy trades less often than the model alone would. That is the point.</p>
+<h2 id="why-analyse-on-one-timeframe-and-enter-on-another">Why analyse on one timeframe and enter on another?</h2>
+<p>Because the two jobs have different requirements.</p>
+<p><strong>Deciding</strong> whether a setup is worth taking benefits from a slower timeframe — more context, less noise, fewer false signals. <strong>Entering</strong> benefits from the fastest timeframe available, because every tick of slippage between the decision and the fill is a direct cost.</p>
+<p>So analysis runs on the higher timeframe and execution happens on the <strong>1-minute interval</strong>. The strategy knows what it wants before it needs to act quickly, which is the only way to act quickly without acting carelessly.</p>
+<h2 id="how-is-risk-handled">How is risk handled?</h2>
+<p>Trailing stops and position-level risk limits are built into the strategy, not bolted on.</p>
+<p>This is where most backtested strategies fail in production. A backtest reports the average outcome; a live account experiences the <em>sequence</em>. A strategy with a good average and no drawdown control will, eventually, hit the run of losses that ends it.</p>
+<p>The dashboard therefore tracks <strong>maximum drawdown</strong> and <strong>profit factor</strong> as first-class metrics, alongside the equity curve.</p>
+<h2 id="what-do-the-live-numbers-show">What do the live numbers show?</h2>
+<p>They show whatever they show — that is the entire point of publishing them.</p>
+<p>The dashboard at <a href="https://aicrypto42.io/entries">aicrypto42.io/entries</a> reports, continuously and without curation:</p>
+<ul>
+<li><strong>Win rate</strong> across all symbols, over 1-day, 7-day, 30-day and 1-year windows</li>
+<li><strong>Equity curve</strong>, daily</li>
+<li><strong>Net PnL</strong></li>
+<li><strong>Maximum drawdown</strong> and <strong>profit factor</strong></li>
+<li><strong>P&amp;L broken down by symbol</strong> — BTC, ETH, SOL, XRP, ADA, DOGE, PEPE and TRUMP</li>
+</ul>
+<p>Including the losing periods. A strategy page that only shows winning windows is marketing, and you should read it as such — mine included, which is why the numbers are live rather than screenshotted.</p>
+<p>If you are evaluating any algorithmic strategy, the two numbers to check first are <strong>profit factor</strong> (total profit divided by total loss — above 1.0 is profitable) and <strong>maximum drawdown</strong> (the worst peak-to-trough fall). A high win rate with a profit factor below 1.0 means many small wins and a few catastrophic losses.</p>
+<h2 id="what-i-would-tell-someone-building-this">What I would tell someone building this</h2>
+<p>Three things, in order of how much time they will save you:</p>
+<ol>
+<li><strong>Feature engineering beats model selection.</strong> The gap between a mediocre and a good XGBoost model here was almost entirely in how features were constructed, not in hyperparameters.</li>
+<li><strong>Backtest realistically or not at all.</strong> Fees, slippage, and the fact that your fill is not the price you saw. Optimistic backtests are the single most common reason live results diverge from expectations.</li>
+<li><strong>Publish the results.</strong> It forces honesty about what the system actually does, and it is the only evidence anyone should accept.</li>
+</ol>
+<hr>
+<p><em>This post describes an engineering project. It is not financial advice, and nothing here is a recommendation to trade or invest. Algorithmic trading carries substantial risk of loss, and past performance does not indicate future results.</em></p>
+<p><strong>See it live:</strong> <a href="https://aicrypto42.io/">aicrypto42.io</a> · <strong>Live statistics:</strong> <a href="https://aicrypto42.io/entries">aicrypto42.io/entries</a></p>
+</div>
+          
+<section class="article-faq" aria-label="Frequently asked questions">
+  <h2>Frequently asked questions</h2>
+  
+  <details class="faq-item">
+    <summary class="faq-q">What model does the strategy use?</summary>
+    <div class="faq-a">An XGBoost gradient-boosted tree classifier. It takes dozens of technical indicators and engineered features as input and outputs a probability that a given setup will resolve profitably, replacing hard-coded if-then rules from individual strategies with a single calibrated signal.</div>
+  </details>
+  
+  <details class="faq-item">
+    <summary class="faq-q">Why XGBoost rather than a neural network?</summary>
+    <div class="faq-a">Tabular market features are exactly what gradient-boosted trees are best at. They train in minutes rather than hours, they handle mixed feature scales without heavy preprocessing, and their feature importances are inspectable — which matters when you need to explain why the model took a trade. Deep learning wins on raw sequences, not on a few hundred engineered indicators.</div>
+  </details>
+  
+  <details class="faq-item">
+    <summary class="faq-q">Which markets and timeframes does it trade?</summary>
+    <div class="faq-a">Eight crypto symbols on Binance — BTC, ETH, SOL, XRP, ADA, DOGE, PEPE and TRUMP. Analysis runs on a higher timeframe while entries are executed on the 1-minute interval. Intervals from 1m to 1d can be inspected on the dashboard.</div>
+  </details>
+  
+  <details class="faq-item">
+    <summary class="faq-q">How is risk controlled?</summary>
+    <div class="faq-a">Built-in trailing stops and position-level risk controls cap the loss on any single trade, and the dashboard tracks maximum drawdown and profit factor continuously. Risk control is part of the strategy definition rather than a manual overlay.</div>
+  </details>
+  
+  <details class="faq-item">
+    <summary class="faq-q">Can I see the real results?</summary>
+    <div class="faq-a">Yes — the live dashboard at aicrypto42.io/entries publishes win rate, equity curve, net PnL, maximum drawdown, profit factor and per-symbol P&amp;L, over 1-day, 7-day, 30-day and 1-year windows. It shows losing periods as well as winning ones.</div>
+  </details>
+  
+  <details class="faq-item">
+    <summary class="faq-q">Is this financial advice?</summary>
+    <div class="faq-a">No. It is a description of an engineering project. Algorithmic trading carries substantial risk of loss, past results do not predict future results, and nothing here is a recommendation to trade or to invest.</div>
+  </details>
+  
+</section>
+
+          
+          <div class="tags mt-4 content">
+            <i class="fas fa-tags mr-2"></i>
+             <a
+              href="https://DavitGadyan.github.io/portfolio_app/tags/algorithmic-trading">Algorithmic Trading</a>, <a
+              href="https://DavitGadyan.github.io/portfolio_app/tags/machine-learning">Machine Learning</a>, <a
+              href="https://DavitGadyan.github.io/portfolio_app/tags/xgboost">Xgboost</a>, <a
+              href="https://DavitGadyan.github.io/portfolio_app/tags/crypto">Crypto</a>, <a
+              href="https://DavitGadyan.github.io/portfolio_app/tags/quantitative-research">Quantitative Research</a>
+          </div>
+          
+
+          
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="bg-white sticky-top wow fadeInUp" data-wow-duration="1.5s" style="top: 80px;">
+          <div class="widget">
+            <h3 class="widget-title">Tags</h3>
+            <ul class="list-unstyled widget-list">
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/algorithmic-trading">Algorithmic trading&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/barcelona-school-of-economics">Barcelona school of economics&nbsp;&nbsp;(2)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/career">Career&nbsp;&nbsp;(2)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/communication-skills">Communication skills&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/crypto">Crypto&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/data-science">Data science&nbsp;&nbsp;(6)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/education">Education&nbsp;&nbsp;(4)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/freelancing">Freelancing&nbsp;&nbsp;(2)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/generative-ai">Generative ai&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/graduation">Graduation&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/gre">Gre&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/ielts">Ielts&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/improvtalk">Improvtalk&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/ios">Ios&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/machine-learning">Machine learning&nbsp;&nbsp;(2)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/masters">Masters&nbsp;&nbsp;(4)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/math">Math&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/mobile-app">Mobile app&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/product">Product&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/productivity">Productivity&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/quantitative-research">Quantitative research&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/upwork">Upwork&nbsp;&nbsp;(1)</a></li>
+              <li><a href="https://DavitGadyan.github.io/portfolio_app/tags/xgboost">Xgboost&nbsp;&nbsp;(1)</a></li>
+            </ul>
+          </div>
+
+          <div class="widget">
+            <h3 class="widget-title">Related Post</h3>
+            
+            
+            <ul class="list-unstyled widget-list">
+              <li class="media widget-post align-items-center">
+                
+                <a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-1/">
+                  <img class="widget-img" src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/math-in-ai.jpeg" alt="How Much Maths Do You Actually Need for Data Science?"
+                       width="100" height="100" loading="lazy" decoding="async">
+                </a>
+                
+                <div class="media-body">
+                  <h5 class="h6 mb-0"><a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-1/">How Much Maths Do You Actually Need for Data Science?</a></h5>
+                  <small>July 2, 2021</small>
+                </div>
+              </li>
+            </ul>
+            
+            <ul class="list-unstyled widget-list">
+              <li class="media widget-post align-items-center">
+                
+                <a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-8/">
+                  <img class="widget-img" src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/improvtalk.png" alt="ImprovTalk: Building a Mobile App That Teaches Charisma Through Improvisation"
+                       width="100" height="100" loading="lazy" decoding="async">
+                </a>
+                
+                <div class="media-body">
+                  <h5 class="h6 mb-0"><a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-8/">ImprovTalk: Building a Mobile App That Teaches Charisma Through Improvisation</a></h5>
+                  <small>August 20, 2026</small>
+                </div>
+              </li>
+            </ul>
+            
+            <ul class="list-unstyled widget-list">
+              <li class="media widget-post align-items-center">
+                
+                <a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-6/">
+                  <img class="widget-img" src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/graduation-2023.jpg" alt="Graduating From Barcelona School of Economics With Honours"
+                       width="100" height="100" loading="lazy" decoding="async">
+                </a>
+                
+                <div class="media-body">
+                  <h5 class="h6 mb-0"><a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-6/">Graduating From Barcelona School of Economics With Honours</a></h5>
+                  <small>July 17, 2023</small>
+                </div>
+              </li>
+            </ul>
+            
+            <ul class="list-unstyled widget-list">
+              <li class="media widget-post align-items-center">
+                
+                <a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-5/">
+                  <img class="widget-img" src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/work-vs-study.jpeg" alt="Balancing Freelance Data Science With a Master&#39;s Degree Abroad"
+                       width="100" height="100" loading="lazy" decoding="async">
+                </a>
+                
+                <div class="media-body">
+                  <h5 class="h6 mb-0"><a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-5/">Balancing Freelance Data Science With a Master&#39;s Degree Abroad</a></h5>
+                  <small>April 4, 2023</small>
+                </div>
+              </li>
+            </ul>
+            
+            <ul class="list-unstyled widget-list">
+              <li class="media widget-post align-items-center">
+                
+                <a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-4/">
+                  <img class="widget-img" src="https://DavitGadyan.github.io/portfolio_app/images/portfolio/bse.jpeg" alt="Accepted to Barcelona School of Economics: Data Science for Decision Making"
+                       width="100" height="100" loading="lazy" decoding="async">
+                </a>
+                
+                <div class="media-body">
+                  <h5 class="h6 mb-0"><a href="https://DavitGadyan.github.io/portfolio_app/blog/blog-4/">Accepted to Barcelona School of Economics: Data Science for Decision Making</a></h5>
+                  <small>August 28, 2022</small>
+                </div>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+	<footer class="footer-bg fadeInUp wow" data-wow-duration="1.5s">
+  <div class="container">
+    <div class="row">
+      <div class="footer col-lg-10 offset-lg-1">
+        <hr>
+        <ul class="footer-icons list-inline">
+          
+          <li><a href="https://twitter.com/Dave18381384"><i class="fab fa-twitter"></i></a></li>
+          
+          <li><a href="https://github.com/DavitGadyan"><i class="fab fa-github"></i></a></li>
+          
+          <li><a href="https://www.linkedin.com/in/davidgadyan/"><i class="fab fa-linkedin"></i></a></li>
+          
+        </ul>
+        <div class="to-top">
+          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="credit content">
+          Copyright © 2026 David Gadyan · Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><!-- JS Plugins -->
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/wow.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/text-animation/text-animation.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/jquery.waypoints.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://DavitGadyan.github.io/portfolio_app/plugins/owl-carousel/owl.carousel.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://DavitGadyan.github.io/portfolio_app/js/script.min.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  
+  function track(name, params) {
+    params = params || {};
+    try {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({ event: name }, params));
+      if (typeof window.gtag === "function") window.gtag("event", name, params);
+    } catch (e) {   }
+  }
+  window.dgTrack = track;
+
+  
+  
+  
+  
+  
+  
+  var ADS = {
+    id:    "",
+    lead:  "",
+    book:  ""
+  };
+
+  var CLICK_KEYS = ["gclid", "gbraid", "wbraid"];
+  var CLICK_TTL  = 90 * 24 * 3600 * 1000;
+
+  function captureClickIds() {
+    try {
+      var qs = new URLSearchParams(location.search), found = null;
+      CLICK_KEYS.forEach(function (k) { if (!found && qs.get(k)) found = { k: k, v: qs.get(k) }; });
+      if (found) {
+        localStorage.setItem("dg_click", JSON.stringify({
+          key: found.k, value: found.v, at: Date.now(),
+          landing: location.pathname,
+          campaign: qs.get("utm_campaign") || "", source: qs.get("utm_source") || ""
+        }));
+      }
+    } catch (e) {}
+  }
+  function storedClick() {
+    try {
+      var raw = localStorage.getItem("dg_click");
+      if (!raw) return null;
+      var c = JSON.parse(raw);
+      if (!c || (Date.now() - c.at) > CLICK_TTL) return null;
+      return c;
+    } catch (e) { return null; }
+  }
+  captureClickIds();
+  window.dgClickId = storedClick;
+
+  
+  
+  
+  function adsConversion(label, params) {
+    if (!ADS.id || !label || typeof window.gtag !== "function") return;
+    var payload = { send_to: ADS.id + "/" + label };
+    if (params && params.value)    payload.value    = params.value;
+    if (params && params.currency) payload.currency = params.currency;
+    var c = storedClick();
+    if (c && c.key === "gclid") payload.gclid = c.value;
+    try { window.gtag("event", "conversion", payload); } catch (e) {}
+  }
+  window.dgAdsConversion = adsConversion;
+
+  var LEAD_KEY = "dg_lead_fired_at";
+  var LEAD_WINDOW_MS = 10 * 60 * 1000;
+
+  function leadRecentlyFired() {
+    try {
+      var t = window.sessionStorage.getItem(LEAD_KEY);
+      return !!t && (Date.now() - parseInt(t, 10)) < LEAD_WINDOW_MS;
+    } catch (e) { return false; }
+  }
+  function markLeadFired() {
+    try { window.sessionStorage.setItem(LEAD_KEY, String(Date.now())); } catch (e) {}
+  }
+
+  
+  function fireLead(method) {
+    if (leadRecentlyFired()) return;   
+    markLeadFired();
+    var c = storedClick();
+    track("generate_lead", Object.assign(
+      { method: method, form_destination: "formspree", value: 45, currency: "USD" },
+      c ? { click_id: c.key, ads_campaign: c.campaign || "" } : {}
+    ));
+    adsConversion(ADS.lead, { value: 45, currency: "USD" });
+  }
+
+
+
+  function onReady(fn) {
+    if (document.readyState !== "loading") fn();
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
+
+  onReady(function () {
+    
+    var forms = document.querySelectorAll('form[action*="formspree"], form.dg-lead-form');
+    Array.prototype.forEach.call(forms, function (form) {
+      
+      
+      var c = storedClick();
+      if (c && !form.querySelector('input[name="ad_click_id"]')) {
+        ["ad_click_id:" + c.key + "=" + c.value,
+         "ad_campaign:" + (c.campaign || "")].forEach(function (pair) {
+          var i = pair.indexOf(":");
+          var el = document.createElement("input");
+          el.type = "hidden";
+          el.name = pair.slice(0, i);
+          el.value = pair.slice(i + 1);
+          form.appendChild(el);
+        });
+      }
+      form.addEventListener("submit", function () {
+        fireLead("contact_form");
+      }, { capture: true });
+    });
+
+    
+    document.addEventListener("click", function (ev) {
+      var el = ev.target && ev.target.closest ? ev.target.closest("a, button") : null;
+      if (!el) return;
+
+      var href = (el.getAttribute("href") || "");
+      var text = (el.textContent || "").trim().replace(/\s+/g, " ").slice(0, 80);
+
+      
+      if (el.hasAttribute("data-dg-book")) { track("book_call_click", { link_text: text }); return; }
+
+      
+      if (el.classList.contains("hireMe") || /#contact$/.test(href)) {
+        track("hire_me_click", { link_text: text, link_url: href });
+        return;
+      }
+
+      if (/linkedin\.com/i.test(href)) {
+        track("linkedin_click", { link_url: href, link_text: text });
+        return;
+      }
+
+      if (/\.pdf($|\?)/i.test(href)) {
+        track("cv_download", { file_name: href.split("/").pop(), link_text: text });
+        return;
+      }
+
+      
+      if (/^https?:\/\//i.test(href) && href.indexOf(window.location.hostname) === -1) {
+        var host = "";
+        try { host = new URL(href).hostname; } catch (e) {}
+        track("outbound_click", { link_url: href, link_domain: host, link_text: text });
+      }
+    }, true);
+  });
+})();
+</script>
+</body>
+
+</html>

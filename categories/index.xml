@@ -6,32 +6,113 @@
     <description>Recent content in Categories on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Sat, 28 Mar 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>chat gpt</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</link>
-      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
-      
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Copyright &amp;copy; 2026 David Gadyan &amp;middot; Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist</copyright>
+    <lastBuildDate>Tue, 25 Aug 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>generative ai</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/generative-ai/</link>
-      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/generative-ai/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>geo</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/geo/</link>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/geo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>llm</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/llm/</link>
-      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marketing</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/marketing/</link>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seo</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/seo/</link>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</link>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/mobile/</link>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0100</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/product/</link>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0100</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai video</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/ai-video/</link>
+      <pubDate>Thu, 20 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/ai-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>higgsfield</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/higgsfield/</link>
+      <pubDate>Thu, 20 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/higgsfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/ios/</link>
+      <pubDate>Thu, 20 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chat gpt</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</link>
+      <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/chat-gpt/</guid>
       <description></description>
     </item>
     
@@ -54,20 +135,20 @@
     </item>
     
     <item>
-      <title>web development</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</link>
-      <pubDate>Tue, 03 Feb 2026 12:14:34 +0600</pubDate>
+      <title>machine learning</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
+      <pubDate>Thu, 01 Jan 2026 09:00:00 +0100</pubDate>
       
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/web-development/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</link>
-      <pubDate>Wed, 30 Oct 2024 12:14:34 +0600</pubDate>
+      <title>trading</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/trading/</link>
+      <pubDate>Thu, 01 Jan 2026 09:00:00 +0100</pubDate>
       
-      <guid>https://DavitGadyan.github.io/portfolio_app/categories/machine-learning/</guid>
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/trading/</guid>
       <description></description>
     </item>
     
@@ -189,11 +270,38 @@
     </item>
     
     <item>
+      <title>education</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/education/</link>
+      <pubDate>Mon, 17 Jul 2023 12:17:32 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/career/</link>
+      <pubDate>Tue, 04 Apr 2023 12:17:32 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ocr</title>
       <link>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</link>
       <pubDate>Wed, 29 Sep 2021 12:14:34 +0600</pubDate>
       
       <guid>https://DavitGadyan.github.io/portfolio_app/categories/ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/categories/data-science/</link>
+      <pubDate>Fri, 02 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/categories/data-science/</guid>
       <description></description>
     </item>
     

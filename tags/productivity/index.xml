@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on David Gadyan</title>
+    <link>https://DavitGadyan.github.io/portfolio_app/tags/productivity/</link>
+    <description>Recent content in productivity on David Gadyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2026 David Gadyan &amp;middot; Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist</copyright>
+    <lastBuildDate>Tue, 04 Apr 2023 12:17:32 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Balancing Freelance Data Science With a Master&#39;s Degree Abroad</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/blog/blog-5/</link>
+      <pubDate>Tue, 04 Apr 2023 12:17:32 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/blog/blog-5/</guid>
+      <description>A year of simultaneously delivering client work and completing an intensive Data Science for Decision Making master&amp;rsquo;s abroad — the time management, the trade-offs, and the outcome.</description>
+    </item>
+    
+  </channel>
+</rss>

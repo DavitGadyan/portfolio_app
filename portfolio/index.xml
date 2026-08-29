@@ -6,10 +6,29 @@
     <description>Recent content in Portfolio on David Gadyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Sat, 28 Mar 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright &amp;copy; 2026 David Gadyan &amp;middot; Data Scientist, Agentic AI Developer &amp; AI Marketing Specialist</copyright>
+    <lastBuildDate>Tue, 25 Aug 2026 12:14:34 +0600</lastBuildDate><atom:link href="https://DavitGadyan.github.io/portfolio_app/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai Lead Scoring S1mple.ai</title>
+      <title>AI Market ing</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-37/</link>
+      <pubDate>Tue, 25 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-37/</guid>
+      <description>The goal of the project was to
+AI content would be promoted on popular social media apps to reach the targeted customer sectors, specifically on Instagram, Meta, TikTok, Youtube.</description>
+    </item>
+    
+    <item>
+      <title>Gene rative AI: Video Ads</title>
+      <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-36/</link>
+      <pubDate>Thu, 20 Aug 2026 12:14:34 +0600</pubDate>
+      
+      <guid>https://DavitGadyan.github.io/portfolio_app/portfolio/project-36/</guid>
+      <description>The goal of the project was to build an AI Video content to promote ImprovTalk IOS application.</description>
+    </item>
+    
+    <item>
+      <title>AI Lead Scoring — S1mple.ai</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-35/</link>
       <pubDate>Sat, 28 Mar 2026 12:14:34 +0600</pubDate>
       
@@ -18,7 +37,7 @@
     </item>
     
     <item>
-      <title>AI Health care Virgil.ai</title>
+      <title>AI Health care — Virgil.ai</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-34/</link>
       <pubDate>Tue, 03 Feb 2026 12:14:34 +0600</pubDate>
       
@@ -63,7 +82,7 @@
     </item>
     
     <item>
-      <title>Data visuali zation expert</title>
+      <title>Data Visualization Expert</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-29/</link>
       <pubDate>Thu, 15 Aug 2024 12:14:34 +0600</pubDate>
       
@@ -72,7 +91,7 @@
     </item>
     
     <item>
-      <title>Classifi cation of industry of firm</title>
+      <title>Classification of Industry of Firm</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-27/</link>
       <pubDate>Thu, 08 Aug 2024 12:14:34 +0600</pubDate>
       
@@ -99,7 +118,7 @@
     </item>
     
     <item>
-      <title>Quant /Python/ PCA Analysis</title>
+      <title>Quant / Python / PCA Analysis</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-26/</link>
       <pubDate>Mon, 29 Apr 2024 12:14:34 +0600</pubDate>
       
@@ -126,7 +145,7 @@
     </item>
     
     <item>
-      <title>Data Expert with R software</title>
+      <title>Data Expert with R</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-23/</link>
       <pubDate>Thu, 07 Mar 2024 12:14:34 +0600</pubDate>
       
@@ -144,7 +163,7 @@
     </item>
     
     <item>
-      <title>Data analysis of resumes</title>
+      <title>Data Analysis of Resumes</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-20/</link>
       <pubDate>Sun, 31 Dec 2023 12:14:34 +0600</pubDate>
       
@@ -162,7 +181,7 @@
     </item>
     
     <item>
-      <title>Deploy ML Dash</title>
+      <title>Deploying ML with Python Dash</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-16/</link>
       <pubDate>Fri, 03 Nov 2023 12:14:34 +0600</pubDate>
       
@@ -225,7 +244,7 @@
     </item>
     
     <item>
-      <title>Scrapy &#43; Bigquery &#43; Cloud</title>
+      <title>Scrapy &#43; BigQuery &#43; Cloud</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-11/</link>
       <pubDate>Wed, 09 Jun 2021 12:14:34 +0600</pubDate>
       
@@ -261,7 +280,7 @@
     </item>
     
     <item>
-      <title>Algo rithmic Trading Python</title>
+      <title>Algorithmic Trading in Python</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-7/</link>
       <pubDate>Tue, 02 Mar 2021 12:14:34 +0600</pubDate>
       
@@ -270,7 +289,7 @@
     </item>
     
     <item>
-      <title>LDA and LIWC Analysis of tweets</title>
+      <title>LDA and LIWC Analysis of Tweets</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-10/</link>
       <pubDate>Wed, 27 Jan 2021 12:14:34 +0600</pubDate>
       
@@ -279,7 +298,7 @@
     </item>
     
     <item>
-      <title>Stock Trend &amp; Senti ment Analysis</title>
+      <title>Stock Trend &amp; Sentiment Analysis</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-2/</link>
       <pubDate>Fri, 04 Dec 2020 12:14:34 +0600</pubDate>
       
@@ -288,7 +307,7 @@
     </item>
     
     <item>
-      <title>Image Back ground Removal</title>
+      <title>Image Background Removal</title>
       <link>https://DavitGadyan.github.io/portfolio_app/portfolio/project-6/</link>
       <pubDate>Thu, 03 Dec 2020 12:14:34 +0600</pubDate>
       
